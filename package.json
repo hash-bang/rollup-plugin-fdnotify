@@ -1,0 +1,29 @@
+{
+  "name": "rollup-plugin-fdnotify",
+  "version": "0.0.0",
+  "description": "Rollup plugin to use freedesktop-notifications when compiling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash-bang/rollup-plugin-fdnotify.git"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "freedesktop",
+    "notify",
+    "progress"
+  ],
+  "author": "Matt Carter <m@ttcarter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hash-bang/rollup-plugin-fdnotify/issues"
+  },
+  "homepage": "https://github.com/hash-bang/rollup-plugin-fdnotify#readme",
+  "dependencies": {
+    "freedesktop-notifications": "^1.2.3"
+  }
+}
